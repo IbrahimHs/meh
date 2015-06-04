@@ -1,6 +1,12 @@
 /*
-go to the group chat settings and email yourself the chat log (no attachments), use that txt here.
-you'll need an android phone or some tweaking of the regex on line 11 to make this work.
+- Go to the group chat settings and email yourself the chat log 
+  (no attachments), use that txt here.
+  (You'll need an android phone or some tweaking of the regex on 
+  line 11 to make this work.)
+  
+- You might also need to create a /us folder for the --export 
+  option to work but let's not get ahead of ourselves here. 
+  You still havent even sent yourself the log, have you?
 */
 var latinize = require('latinize'); /*npm install latinize*/
 var fs       = require('fs');
